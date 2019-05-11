@@ -29,9 +29,9 @@ void insertInterval(vector<Interval> &a, Interval v) {
 }
 
 vector<Interval> Solution::merge(vector<Interval> &A) {
-    vector <Interval> ret;
-    for (int i = 0; i < A.size(); ++i) {
-        insertInterval(ret, A[i]);
-    }
-    return ret;
+  vector <Interval> ret;
+  for (int i = 0; i < A.size(); ++i) {
+    insertInterval(ret, A[i]);
+  }
+  return ret;
 }
